@@ -1,0 +1,11 @@
+---
+layout: default
+title: Your New Jekyll Site
+---
+{% for post in site.posts %}
+<article>
+	<p class="post__date">{{ post.hdate }}</p>
+	<h2 class="post__title">{{ post.title }}</h2>
+	<div class="post__body">{{ post.content }}</div>
+</article>
+{% endfor %}
