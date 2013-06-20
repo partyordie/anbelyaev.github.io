@@ -1,2 +1,4 @@
-name: Your New Jekyll Site
+name: Mii Blog
+safe: true
+lsi: false
 pygments: true
