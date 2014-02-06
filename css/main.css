@@ -1,25 +1,82 @@
+body {
+	background-color: #f9f8f3;
+}
+
+::-moz-selection {
+	background-color: #ccc;
+}
+
+::selection {
+	background-color: #ccc;
+}
+
+a {
+	height: 12px;
+
+	text-decoration: none;
+
+	color: #000;
+	border-bottom: 1px solid #999;
+}
+
+a:visited {
+	color: #666;
+	border-bottom-color: #ddd;
+}
+
+a:hover {
+	color: #db2834;
+	border-bottom-color: #f98b98;
+}
+
+a:focus {
+	outline: 1px dotted #ccc;
+}
+
 .post {
 	font-family: Georgia, Times New Roman, serif;
 
-	width: 790px;
-	margin: 24px auto 96px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	max-width: 790px;
+	margin: 34px auto 136px;
+	padding: 0 20px;
 }
 
 .post__title {
-	font-size: 48px;
+	font-size: 42px;
 	font-weight: normal;
+	line-height: 68px;
 
-	margin: 0;
+	margin-top: 34px;
 }
 
 .post__date {
 	font-size: 14px;
 	font-style: italic;
+	line-height: 34px;
 
-	color: gray;
+	margin-top: -34px;
+	margin-bottom: 34px;
+
+	color: #aaa;
 }
 
 .post__body {
 	font-size: 22px;
-	line-height: 1.6;
+	line-height: 34px;
+
+	margin-bottom: 34px;
+}
+
+.post__body p {
+	margin-bottom: 34px;
+}
+
+.post__lquot {
+	margin-left: -.6em;
+}
+
+.post__lquot-before {
+	margin-right: .6em;
 }
