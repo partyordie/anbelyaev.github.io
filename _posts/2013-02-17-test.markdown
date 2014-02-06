@@ -3,6 +3,7 @@ layout: post
 title: "Тест"
 date: 2013-02-02 17:56:03
 hdate: "17 февраля 2013"
+name: "test"
 categories: jekyll update
 ---
 Обещаю каждый день писать новую захватывающую заметку!

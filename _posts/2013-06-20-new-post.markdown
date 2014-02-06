@@ -3,6 +3,7 @@ layout: post
 title: "Свежий пост"
 date: 2013-06-20 22:11:33
 hdate: "20 июня 2013"
+name: "new-post"
 categories: jekyll update
 ---
 Похоже, не очень получается писать сюда каждый день.
