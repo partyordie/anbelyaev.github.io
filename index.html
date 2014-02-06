@@ -4,8 +4,8 @@ title: Your New Jekyll Site
 ---
 {% for post in site.posts %}
 <article class="post">
-	<p class="post__date">{{ post.hdate }}</p>
 	<h2 class="post__title">{{ post.title }}</h2>
+	<p class="post__date">{{ post.hdate }}</p>
 	<div class="post__body">{{ post.content }}</div>
 </article>
 {% endfor %}
