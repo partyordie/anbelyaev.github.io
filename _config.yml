@@ -2,3 +2,4 @@ name: Mii Blog
 safe: true
 lsi: false
 pygments: true
+markdown: redcarpet
